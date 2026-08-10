@@ -1,13 +1,15 @@
 # Slides das Aulas
 
-## [03/03 - Apresentação](./slides/01-intro/01-intro.html)
+## [11/08 - Apresentação](./slides/01-intro/01-intro.html)
  - Objetivos
  - Metodologia
  - Bibliografia
 
-## [03/03 - Introdução ao C++](./slides/02-cpp/02-cpp.html)
+## [11/08 - Introdução ao C++](./slides/02-cpp/02-cpp.html)
  - Variáveis e tipos
  - Entrada e saída
+
+<!--
 
 ## [10/03 - Operadores e Expressões](./slides/03-op_e_exp/03-op_e_exp.html)
  - Operadores em C++
@@ -81,8 +83,6 @@
 - Ordenação com tipos estruturados
   - Ordem crescente/decrescente de campos numéricos
   - Ordem alfabética de campos string
-
-<!--
 
 ## [10/11 - Strings](./slides/13-strings/13-strings.html)
 - Caractere delimitador `\0`
