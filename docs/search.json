@@ -9119,5 +9119,61 @@
     "title": "Funções Recursivas",
     "section": "Sumário",
     "text": "Sumário\nNa aula de hoje:\n\nFunções recursivas\nExemplos\n\n\n\n\nECT3201 - Linguagem de Programação"
+  },
+  {
+    "objectID": "slides/02-cpp/lab01.html#c-comando-de-saída",
+    "href": "slides/02-cpp/lab01.html#c-comando-de-saída",
+    "title": "Lab01 - Ferramentas",
+    "section": "C++: Comando de Saída",
+    "text": "C++: Comando de Saída\n#include &lt;iostream&gt;\n\nusing namespace std;\n\nint main(){\n    cout &lt;&lt; \"Lab. de LiP\\n\";\n    return 0;\n}"
+  },
+  {
+    "objectID": "slides/02-cpp/lab01.html#c-declaração-de-variáveis",
+    "href": "slides/02-cpp/lab01.html#c-declaração-de-variáveis",
+    "title": "Lab01 - Ferramentas",
+    "section": "C++: Declaração de Variáveis",
+    "text": "C++: Declaração de Variáveis\nEm qualquer local dentro do bloco main:\ntipo_da_variavel nome_da_variavel;\n\ntipo_da_variavel pode ser:\n\nbool: verdadeiro ou falso\nint: número inteiro\nfloat: número real\nchar: um caractere"
+  },
+  {
+    "objectID": "slides/02-cpp/lab01.html#c-inicialização-de-variáveis",
+    "href": "slides/02-cpp/lab01.html#c-inicialização-de-variáveis",
+    "title": "Lab01 - Ferramentas",
+    "section": "C++: Inicialização de Variáveis",
+    "text": "C++: Inicialização de Variáveis\nExemplo 1:\n#include &lt;iostream&gt;\n\nusing namespace std;\n\nint main(){\n    int x = 0; //declara x e a inicializa com 0\n    \n    return 0;\n}"
+  },
+  {
+    "objectID": "slides/02-cpp/lab01.html#c-inicialização-de-variáveis-1",
+    "href": "slides/02-cpp/lab01.html#c-inicialização-de-variáveis-1",
+    "title": "Lab01 - Ferramentas",
+    "section": "C++: Inicialização de Variáveis",
+    "text": "C++: Inicialização de Variáveis\nExemplo 2:\n#include &lt;iostream&gt;\n\nusing namespace std;\n\nint main(){\n    char carac = '#'; //declara e inicializa carac\n    \n    return 0;\n}"
+  },
+  {
+    "objectID": "slides/02-cpp/lab01.html#c-comando-de-entrada",
+    "href": "slides/02-cpp/lab01.html#c-comando-de-entrada",
+    "title": "Lab01 - Ferramentas",
+    "section": "C++: Comando de Entrada",
+    "text": "C++: Comando de Entrada\ncin: atribui valor lido à variável após &gt;&gt;:\n#include &lt;iostream&gt;\nusing namespace std;\nint main(){\n    int x;\n    cout &lt;&lt; \"digite um valor: \";\n    cin &gt;&gt; x;\n    return 0;\n}"
+  },
+  {
+    "objectID": "slides/02-cpp/lab01.html#c-operadores",
+    "href": "slides/02-cpp/lab01.html#c-operadores",
+    "title": "Lab01 - Ferramentas",
+    "section": "C++: Operadores",
+    "text": "C++: Operadores\n\nOperador de atribuição: =\nOperadores aritméticos: +, -, *, /, %\nOperadores relacionais: &gt;, &gt;=, &lt;, &lt;=, ==, !=\nOperadores lógicos: ! (negação), || (ou), && (e)"
+  },
+  {
+    "objectID": "slides/02-cpp/lab01.html#c-exemplo-de-programa-com-es",
+    "href": "slides/02-cpp/lab01.html#c-exemplo-de-programa-com-es",
+    "title": "Lab01 - Ferramentas",
+    "section": "C++: Exemplo de Programa com E/S",
+    "text": "C++: Exemplo de Programa com E/S\nPrograma lê do usuário dois valores e os imprime em seguida:\n#include &lt;iostream&gt;\nusing namespace std;\nint main(){\n    float x, y;\n    cout &lt;&lt; \"digite os valores de x e y: \";\n    cin &gt;&gt; x &gt;&gt; y;\n    cout &lt;&lt; \"x: \" &lt;&lt; x &lt;&lt; \", y: \" &lt;&lt; y &lt;&lt; endl;\n    return 0;\n}"
+  },
+  {
+    "objectID": "slides/02-cpp/lab01.html#c-exemplo-de-programa-com-operações",
+    "href": "slides/02-cpp/lab01.html#c-exemplo-de-programa-com-operações",
+    "title": "Lab01 - Ferramentas",
+    "section": "C++: Exemplo de Programa com Operações",
+    "text": "C++: Exemplo de Programa com Operações\nPrograma lê do usuário dois valores e imprime a soma entre eles:\n#include &lt;iostream&gt;\nusing namespace std;\nint main(){\n    float x, y;\n    cout &lt;&lt; \"digite os valores de x e y: \";\n    cin &gt;&gt; x &gt;&gt; y;\n    cout &lt;&lt; \"Soma: \" &lt;&lt; x + y &lt;&lt; endl;\n    return 0;\n}\n\n\n\n\nECT3201 - Linguagem de Programação"
   }
 ]
