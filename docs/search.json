@@ -438,7 +438,7 @@
     "href": "slides/03-op_e_exp/03-op_e_exp.html#programa-com-expressões",
     "title": "Operadores e Expressões",
     "section": "Programa com expressões",
-    "text": "Programa com expressões\nint main(){\n    int x = 0;\n    x + 45;\n    x = x + 100;\n    cout << x << endl;\n    return 0;\n}\nO programa está sintaticamente correto? Qual o valor impresso?"
+    "text": "Programa com expressões\nint main(){\n    int x = 0;\n    x + 45;\n    x = x + 100;\n    cout &lt;&lt; x &lt;&lt; endl;\n    return 0;\n}\nO programa está sintaticamente correto? Qual o valor impresso?"
   },
   {
     "objectID": "slides/03-op_e_exp/03-op_e_exp.html#operadores-aritméticos-de-atribuição",
@@ -459,7 +459,7 @@
     "href": "slides/03-op_e_exp/03-op_e_exp.html#operações-de-potência-e-raíz-quadrada",
     "title": "Operadores e Expressões",
     "section": "Operações de Potência e Raíz Quadrada",
-    "text": "Operações de Potência e Raíz Quadrada\n\nEm C++, não existem operadores para potência e raíz quadrada\nEstas operações são realizadas por chamadas a funções\n\npow(b,e) para potência (b elevado a e)\nsqrt(x) para raíz quadrada de x\n\nAmbas as funções estão na biblioteca cmath\n\n#include <cmath>"
+    "text": "Operações de Potência e Raíz Quadrada\n\nEm C++, não existem operadores para potência e raíz quadrada\nEstas operações são realizadas por chamadas a funções\n\npow(b,e) para potência (b elevado a e)\nsqrt(x) para raíz quadrada de x\n\nAmbas as funções estão na biblioteca cmath\n\n#include &lt;cmath&gt;"
   },
   {
     "objectID": "slides/03-op_e_exp/03-op_e_exp.html#operador-de-incrementodecremento",
@@ -494,14 +494,14 @@
     "href": "slides/03-op_e_exp/03-op_e_exp.html#operadores-relacionais",
     "title": "Operadores e Expressões",
     "section": "Operadores Relacionais",
-    "text": "Operadores Relacionais\nPossuem precedência mais alta do que o operador de atribuição e mais baixa do que os operadores aritméticos\n\n\n\nOperador\nFuncionalidade\nPrecedência no grupo\n\n\n\n\n==\nIgual\nÚltimo\n\n\n!=\nDiferente\nÚltimo\n\n\n<\nMenor\nPrimeiro\n\n\n<=\nMenor ou igual\nPrimeiro\n\n\n>\nMaior\nPrimeiro\n\n\n>=\nMaior ou igual\nPrimeiro"
+    "text": "Operadores Relacionais\nPossuem precedência mais alta do que o operador de atribuição e mais baixa do que os operadores aritméticos\n\n\n\nOperador\nFuncionalidade\nPrecedência no grupo\n\n\n\n\n==\nIgual\nÚltimo\n\n\n!=\nDiferente\nÚltimo\n\n\n&lt;\nMenor\nPrimeiro\n\n\n&lt;=\nMenor ou igual\nPrimeiro\n\n\n&gt;\nMaior\nPrimeiro\n\n\n&gt;=\nMaior ou igual\nPrimeiro"
   },
   {
     "objectID": "slides/03-op_e_exp/03-op_e_exp.html#expressões-lógicas-2",
     "href": "slides/03-op_e_exp/03-op_e_exp.html#expressões-lógicas-2",
     "title": "Operadores e Expressões",
     "section": "Expressões Lógicas",
-    "text": "Expressões Lógicas\nCom Operadores Relacionais\nExemplos:\n\n1 > 2;\n'a' < 'b';\nx == x;\nx = 5*2 > 4;"
+    "text": "Expressões Lógicas\nCom Operadores Relacionais\nExemplos:\n\n1 &gt; 2;\n'a' &lt; 'b';\nx == x;\nx = 5*2 &gt; 4;"
   },
   {
     "objectID": "slides/03-op_e_exp/03-op_e_exp.html#operadores-lógicos",
@@ -536,7 +536,7 @@
     "href": "slides/03-op_e_exp/03-op_e_exp.html#expressões-lógicas-3",
     "title": "Operadores e Expressões",
     "section": "Expressões Lógicas",
-    "text": "Expressões Lógicas\nCom Todos os Operadores\nExemplos (para x = 1, y = 2, z = 3):\n\ny-x == false\nx > 0 && x < z+10\nx != 1 || x != 2"
+    "text": "Expressões Lógicas\nCom Todos os Operadores\nExemplos (para x = 1, y = 2, z = 3):\n\ny-x == false\nx &gt; 0 && x &lt; z+10\nx != 1 || x != 2"
   },
   {
     "objectID": "slides/03-op_e_exp/03-op_e_exp.html#lista-de-presença",
@@ -550,14 +550,14 @@
     "href": "slides/03-op_e_exp/03-op_e_exp.html#expressões-lógicas-4",
     "title": "Operadores e Expressões",
     "section": "Expressões Lógicas",
-    "text": "Expressões Lógicas\nExemplo de Expressão Mal Construída\nA expressão abaixo é sintaticamente correta mas é logicamente incorreta. O que há de errado com ela? Como consertar?\nint i = 3, j = 2, k = 1;\nbool expr;\n\nexpr = (i > j > k);"
+    "text": "Expressões Lógicas\nExemplo de Expressão Mal Construída\nA expressão abaixo é sintaticamente correta mas é logicamente incorreta. O que há de errado com ela? Como consertar?\nint i = 3, j = 2, k = 1;\nbool expr;\n\nexpr = (i &gt; j &gt; k);"
   },
   {
     "objectID": "slides/03-op_e_exp/03-op_e_exp.html#expressões-lógicas-5",
     "href": "slides/03-op_e_exp/03-op_e_exp.html#expressões-lógicas-5",
     "title": "Operadores e Expressões",
     "section": "Expressões Lógicas",
-    "text": "Expressões Lógicas\nExemplo de Expressão Mal Construída\nForma correta da expressão anterior:\nint i = 3, j = 2, k = 1;\nbool expr;\n\nexpr = (i > j  && j > k);"
+    "text": "Expressões Lógicas\nExemplo de Expressão Mal Construída\nForma correta da expressão anterior:\nint i = 3, j = 2, k = 1;\nbool expr;\n\nexpr = (i &gt; j  && j &gt; k);"
   },
   {
     "objectID": "slides/03-op_e_exp/03-op_e_exp.html#precedência",
@@ -571,14 +571,14 @@
     "href": "slides/03-op_e_exp/03-op_e_exp.html#verificando-o-valor-de-expressões-lógicas",
     "title": "Operadores e Expressões",
     "section": "Verificando o Valor de Expressões Lógicas",
-    "text": "Verificando o Valor de Expressões Lógicas\nUtilize o cout com a expressão lógica inteira entre parênteses para verificar o seu valor em programas:\nint main(){\n    int i = 1, j = 2, k = 3;\n\n    cout << (i + j < k || 5 >= k) << endl;\n\n    return 0;\n}"
+    "text": "Verificando o Valor de Expressões Lógicas\nUtilize o cout com a expressão lógica inteira entre parênteses para verificar o seu valor em programas:\nint main(){\n    int i = 1, j = 2, k = 3;\n\n    cout &lt;&lt; (i + j &lt; k || 5 &gt;= k) &lt;&lt; endl;\n\n    return 0;\n}"
   },
   {
     "objectID": "slides/03-op_e_exp/03-op_e_exp.html#verificando-o-valor-de-expressões-lógicas-1",
     "href": "slides/03-op_e_exp/03-op_e_exp.html#verificando-o-valor-de-expressões-lógicas-1",
     "title": "Operadores e Expressões",
     "section": "Verificando o Valor de Expressões Lógicas",
-    "text": "Verificando o Valor de Expressões Lógicas\nOu, atribua o resultado da expressão a uma variável booleana e imprima esta variável:\nint main(){\n    int i = 1, j = 2, k = 3;\n    bool expr;\n\n    expr = i + j < k || 5 >= k;\n\n    cout << expr << endl;\n\n    return 0;\n}"
+    "text": "Verificando o Valor de Expressões Lógicas\nOu, atribua o resultado da expressão a uma variável booleana e imprima esta variável:\nint main(){\n    int i = 1, j = 2, k = 3;\n    bool expr;\n\n    expr = i + j &lt; k || 5 &gt;= k;\n\n    cout &lt;&lt; expr &lt;&lt; endl;\n\n    return 0;\n}"
   },
   {
     "objectID": "slides/03-op_e_exp/03-op_e_exp.html#conversão-de-tipos-i",
@@ -634,14 +634,14 @@
     "href": "slides/03-op_e_exp/03-op_e_exp.html#exercício-solução",
     "title": "Operadores e Expressões",
     "section": "Exercício: Solução",
-    "text": "Exercício: Solução\n#include <iostream>\nusing namespace std;\nint main(){\n    char car;\n    cout << \"insira um caractere:\\n\";\n    cin >> car;\n    cout << \"Num. ASCII: \" << int(car) << endl;\n    return 0;\n}"
+    "text": "Exercício: Solução\n#include &lt;iostream&gt;\nusing namespace std;\nint main(){\n    char car;\n    cout &lt;&lt; \"insira um caractere:\\n\";\n    cin &gt;&gt; car;\n    cout &lt;&lt; \"Num. ASCII: \" &lt;&lt; int(car) &lt;&lt; endl;\n    return 0;\n}"
   },
   {
     "objectID": "slides/03-op_e_exp/03-op_e_exp.html#exercício-1",
     "href": "slides/03-op_e_exp/03-op_e_exp.html#exercício-1",
     "title": "Operadores e Expressões",
     "section": "Exercício",
-    "text": "Exercício\nForneça valores para as variáveis e calcule os resultados das expressões a seguir. Implemente um programa para verificar as suas respostas:\nint x, y, z;\nchar car;\n\n1. car && (x || y)\n2. (x > y && y > z) || (x == z)\n3. expressao verdadeira quando x nao eh 0 e nem 1\n   e y nao eh 0 e nem -1"
+    "text": "Exercício\nForneça valores para as variáveis e calcule os resultados das expressões a seguir. Implemente um programa para verificar as suas respostas:\nint x, y, z;\nchar car;\n\n1. car && (x || y)\n2. (x &gt; y && y &gt; z) || (x == z)\n3. expressao verdadeira quando x nao eh 0 e nem 1\n   e y nao eh 0 e nem -1"
   },
   {
     "objectID": "slides/03-op_e_exp/03-op_e_exp.html#desafio",
@@ -655,7 +655,7 @@
     "href": "slides/03-op_e_exp/03-op_e_exp.html#sumário",
     "title": "Operadores e Expressões",
     "section": "Sumário",
-    "text": "Sumário\nChecklist da aula:\n\nOperador de atribuição\nOperadores aritméticos\nOperadores lógicos\nOperadores relacionais\nOperador de typecast\nExpressões aritméticas e lógicas\nOrdem de precedência e avaliação de expressões\n\n\n\n\nECT2303 - Linguagem de Programação"
+    "text": "Sumário\nChecklist da aula:\n\nOperador de atribuição\nOperadores aritméticos\nOperadores lógicos\nOperadores relacionais\nOperador de typecast\nExpressões aritméticas e lógicas\nOrdem de precedência e avaliação de expressões\n\n\n\n\n\nECT3201 - Linguagem de Programação"
   },
   {
     "objectID": "slides/03-op_e_exp/03-op_e_exp.html#operadores-aritméticos-small_table",
