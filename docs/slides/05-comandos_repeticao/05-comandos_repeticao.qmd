@@ -139,6 +139,8 @@ for(i = n; i > 0; i++){
 
 ## Lista de Presença
 
+X
+
 ![](bit.ly_lip_20241008.png){fig-align="center"}
 
 <a href="https://bit.ly/lip_20241008"><p style="text-align:center;">https://bit.ly/lip_20241008</p></a>
