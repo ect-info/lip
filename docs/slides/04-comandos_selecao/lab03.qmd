@@ -1,0 +1,16 @@
+---
+title: "Lab03 - Variáveis tipo `char`"
+title-slide-attributes:
+  data-background-image: ../../assets/img/brasao_ufrn_positivo.png
+  data-background-size: "50%, auto, contain"
+  data-background-opacity: "0.05"
+---
+
+## C++: Tipo `char`
+- Não se decora a tabela ASCII, mas é importante saber que:
+    - O alfabeto maiúsculo está em sequência na tabela:
+      se `'A'` é igual a um inteiro `x`, o correspondente
+      a `'B'` é igual a `x+1`, `'C'` é `x+2`, etc.
+    - O mesmo para o alfabeto minúsculo: `'a'` é `y`, `'b'` é `y+1`...
+    - O mesmo para os números: `'1'` é `z`, `'2'` é `z+1`...
+    - O intervalo `[A,Z]` tem valores menores que `[a,z]`
