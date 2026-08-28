@@ -9175,5 +9175,33 @@
     "title": "Lab01 - Ferramentas",
     "section": "C++: Exemplo de Programa com Operações",
     "text": "C++: Exemplo de Programa com Operações\nPrograma lê do usuário dois valores e imprime a soma entre eles:\n#include &lt;iostream&gt;\nusing namespace std;\nint main(){\n    float x, y;\n    cout &lt;&lt; \"digite os valores de x e y: \";\n    cin &gt;&gt; x &gt;&gt; y;\n    cout &lt;&lt; \"Soma: \" &lt;&lt; x + y &lt;&lt; endl;\n    return 0;\n}\n\n\n\n\nECT3201 - Linguagem de Programação"
+  },
+  {
+    "objectID": "slides/04-comandos_selecao/lab03.html#c-tipo-char",
+    "href": "slides/04-comandos_selecao/lab03.html#c-tipo-char",
+    "title": "Lab03 - Variáveis tipo char",
+    "section": "C++: Tipo char",
+    "text": "C++: Tipo char\n\nNão se decora a tabela ASCII, mas é importante saber que:\n\nO alfabeto maiúsculo está em sequência na tabela: se 'A' é igual a um inteiro x, o correspondente a 'B' é igual a x+1, 'C' é x+2, etc.\nO mesmo para o alfabeto minúsculo: 'a' é y, 'b' é y+1…\nO mesmo para os números: '1' é z, '2' é z+1…\nO intervalo [A,Z] tem valores menores que [a,z]\n\n\n\n\n\n\nECT3201 - Linguagem de Programação"
+  },
+  {
+    "objectID": "slides/04-comandos_selecao/lab03.html#c-tipo-char-1",
+    "href": "slides/04-comandos_selecao/lab03.html#c-tipo-char-1",
+    "title": "Lab03 - Variáveis tipo char",
+    "section": "C++: Tipo char",
+    "text": "C++: Tipo char\n\nAlguns caracteres especiais:\n\n'\\n': quebra de linha\n'\\t': tabulação (espaço em branco maior)\n'\\0': delimitador de final de cadeia de caracteres"
+  },
+  {
+    "objectID": "slides/04-comandos_selecao/lab03.html#c-tipo-char-2",
+    "href": "slides/04-comandos_selecao/lab03.html#c-tipo-char-2",
+    "title": "Lab03 - Variáveis tipo char",
+    "section": "C++: Tipo char",
+    "text": "C++: Tipo char\n\nTodo caractere está presente na tabela ASCII (lê-se “ásqui”):\n\nAssocia um número inteiro diferente para cada caractere\nImagem com a tabela"
+  },
+  {
+    "objectID": "slides/04-comandos_selecao/lab03.html#c-tipo-char-3",
+    "href": "slides/04-comandos_selecao/lab03.html#c-tipo-char-3",
+    "title": "Lab03 - Variáveis tipo char",
+    "section": "C++: Tipo char",
+    "text": "C++: Tipo char\n\nNão se decora a tabela ASCII, mas é importante saber que:\n\nO alfabeto maiúsculo está em sequência na tabela: se 'A' é igual a um inteiro x, o correspondente a 'B' é igual a x+1, 'C' é x+2, etc.\nO mesmo para o alfabeto minúsculo: 'a' é y, 'b' é y+1…\nO mesmo para os números: '1' é z, '2' é z+1…\nO intervalo [A,Z] tem valores menores que [a,z]\n\n\n\n\n\n\nECT3201 - Linguagem de Programação"
   }
 ]
