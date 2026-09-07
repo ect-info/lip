@@ -22,12 +22,13 @@
 ## [01/09 - Comandos de Repetição I](./slides/05a-comando_repeticao_for/05a-comando_repeticao_for.html)
 - Comando de repetição `for`
 
-<!--
 
-## [31/03 - Comandos de Repetição II](./slides/05b-comando_repeticao_while/05b-comando_repeticao_while.html)
+## [08/09 - Comandos de Repetição II](./slides/05b-comando_repeticao_while/05b-comando_repeticao_while.html)
 - Comando de repetição `while`
 - Comando de repetição `do.. while`
 - Comandos `break` e `continue`
+
+<!--
 
 ## [07/04 - Funções I](./slides/06-funcoes1/06-funcoes1.html)
 - Chamada de funções

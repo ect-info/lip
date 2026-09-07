@@ -156,9 +156,9 @@ int main(){
 
 ## Lista de Presença
 
-![](lip_20260331.png){fig-align="center"}
+![](lip_20260708.png){fig-align="center"}
 
-<a href="https://bit.ly/lip_20260331"><p style="text-align:center;">https://bit.ly/lip_20260331</p></a>
+<a href="https://bit.ly/lip_20260708"><p style="text-align:center;">https://bit.ly/lip_20260708</p></a>
 
 ---
 
