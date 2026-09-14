@@ -5282,7 +5282,7 @@
     "href": "slides/06-funcoes1/06-funcoes1.html#programas-que-chamam-funções",
     "title": "Funções I",
     "section": "Programas que Chamam Funções",
-    "text": "Programas que Chamam Funções\n\nVocês já utilizaram funções em vários programas:\n\nVocê como programador foi usuário de funções\nO seu programa (programa usuário) continha chamadas de funções\nAs funções que você usou foram implementadas por outro programador"
+    "text": "Programas que Chamam Funções\n\nVocês já utilizaram funções em vários programas:\n\nO seu programa continha chamadas de funções\nAs funções que você chamou foram implementadas por outro programador"
   },
   {
     "objectID": "slides/06-funcoes1/06-funcoes1.html#programas-que-chamam-funções-1",
@@ -5373,7 +5373,7 @@
     "href": "slides/06-funcoes1/06-funcoes1.html#lista-de-presença",
     "title": "Funções I",
     "section": "Lista de Presença",
-    "text": "Lista de Presença\n\n\n\nhttps://bit.ly/lip_20260407"
+    "text": "Lista de Presença\n\n\n\nhttps://bit.ly/lip_20260915"
   },
   {
     "objectID": "slides/06-funcoes1/06-funcoes1.html#definição-de-funções",
@@ -5443,14 +5443,14 @@
     "href": "slides/06-funcoes1/06-funcoes1.html#programa-com-função",
     "title": "Funções I",
     "section": "Programa com Função",
-    "text": "Programa com Função\nExercício\nImplemente uma função chamada eh_primo, que receba como parâmetro um número inteiro. A função deve retornar verdadeiro caso o número seja primo ou falso caso contrário.\nA função main é dada e contém o código do programa usuário da função que você deve implementar (slide a seguir)."
+    "text": "Programa com Função\nExercício\nImplemente uma função chamada eh_primo, que receba como parâmetro um número inteiro. A função deve retornar verdadeiro caso o número seja primo ou falso caso contrário.\nA função main é dada e contém o código que chama a função que você deve implementar (slide a seguir)."
   },
   {
     "objectID": "slides/06-funcoes1/06-funcoes1.html#programa-com-função-1",
     "href": "slides/06-funcoes1/06-funcoes1.html#programa-com-função-1",
     "title": "Funções I",
     "section": "Programa com Função",
-    "text": "Programa com Função\nExercício: programa usuário da Função\nint main(){\n    int num;\n    cout &lt;&lt; \"Insira um numero inteiro:\\n\";\n    cin &gt;&gt; num;\n\n    if(eh_primo(num) == true){\n        cout &lt;&lt; num &lt;&lt; \" eh primo\\n\";\n    }\n    else{\n        cout &lt;&lt; num &lt;&lt; \" nao eh primo\\n\";\n    }\n    return 0;\n}"
+    "text": "Programa com Função\nExercício: Função main\nint main(){\n    int num;\n    cout &lt;&lt; \"Insira um numero inteiro:\\n\";\n    cin &gt;&gt; num;\n\n    if(eh_primo(num) == true){\n        cout &lt;&lt; num &lt;&lt; \" eh primo\\n\";\n    }\n    else{\n        cout &lt;&lt; num &lt;&lt; \" nao eh primo\\n\";\n    }\n    return 0;\n}"
   },
   {
     "objectID": "slides/06-funcoes1/06-funcoes1.html#programa-com-função-2",
@@ -8117,7 +8117,7 @@
     "href": "slides/05b-comando_repeticao_while/05b-comando_repeticao_while.html#lista-de-presença",
     "title": "Comando de Repetição while",
     "section": "Lista de Presença",
-    "text": "Lista de Presença\n\n\n\nhttps://bit.ly/lip_20260331"
+    "text": "Lista de Presença\n\n\n\nhttps://bit.ly/lip_20260708"
   },
   {
     "objectID": "slides/05b-comando_repeticao_while/05b-comando_repeticao_while.html#comandos-while-e-do-while",

@@ -68,9 +68,8 @@ int main(){
 
 ## Programas que Chamam Funções
 - Vocês já utilizaram funções em vários programas:
-    - Você como programador foi _usuário de funções_
-    - O seu programa (_programa usuário_) continha _chamadas_ de funções
-    - As funções que você usou foram implementadas por
+    - O seu programa continha _chamadas_ de funções
+    - As funções que você chamou foram implementadas por
       outro programador
 ---
 
@@ -203,9 +202,9 @@ aulas
 
 ## Lista de Presença
 
-![](lip_20260407.png){fig-align="center"}
+![](lip_20260915.png){fig-align="center"}
 
-<a href="https://bit.ly/lip_20260407"><p style="text-align:center;">https://bit.ly/lip_20260407</p></a>
+<a href="https://bit.ly/lip_20260915"><p style="text-align:center;">https://bit.ly/lip_20260915</p></a>
 
 ---
 
@@ -322,12 +321,12 @@ Implemente uma função chamada `eh_primo`, que receba como parâmetro um númer
 A função deve retornar verdadeiro caso o número seja primo ou falso
 caso contrário.
 
-A função `main` é dada e contém o código do _programa usuário_ da função
+A função `main` é dada e contém o código que chama a função
 que você deve implementar (slide a seguir).
 ---
 
 ## Programa com Função
-#### Exercício: programa usuário da Função
+#### Exercício: Função main
 
 ```C++
 int main(){

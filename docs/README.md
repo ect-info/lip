@@ -28,12 +28,12 @@
 - Comando de repetição `do.. while`
 - Comandos `break` e `continue`
 
-<!--
-
-## [07/04 - Funções I](./slides/06-funcoes1/06-funcoes1.html)
+## [15/09 - Funções I](./slides/06-funcoes1/06-funcoes1.html)
 - Chamada de funções
 - Assinatura de funções
 - Definição de funções
+
+<!--
 
 ## [14/04 - Funções II](./slides/07-funcoes2/07-funcoes2.html)
 - Função sem retorno (funções tipo `void`)
